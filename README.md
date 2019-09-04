@@ -15,4 +15,4 @@ pip install Scrapy
 Install other dependencies from requirement.txt file
 
 ### Run
-scrapy crawl booksScrap --nolog
+scrapy crawl booksScrap -o amazon_data.json
