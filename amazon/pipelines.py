@@ -5,13 +5,12 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 import pymysql
-from scrapy.exporters import JsonItemExporter
 
 class AmazonPipeline(object):
 
     def process_item(self, item, spider):
         db = pymysql.connect(host = 'localhost', user = 'root',
-                             password = 'qijingjing8081', database = 'amazon')
+                             password = 'root', database = 'amazon')
         cursor = db.cursor()
         #cursor.execute('DROP TABLE IF EXISTS books')
         #cursor.execute('create table books (name varchar(200), '
