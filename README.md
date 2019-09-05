@@ -4,13 +4,13 @@ Ability to scraping Amazon Bestseller Book's Details with Scrapy Framework.
 
 
 ### Set up
-Create a virtual environment:
-python3 -m pip install --user virtualenv
-python3 -m venv venv
-source venv/bin/activate
+Create a virtual environment: <br>
+python3 -m pip install --user virtualenv <br>
+python3 -m venv venv <br>
+source venv/bin/activate <br>
 
-Install Scrapy Framework:
-pip install Scrapy
+Install Scrapy Framework: <br>
+pip install Scrapy <br>
 
 Install other dependencies from requirement.txt file
 
